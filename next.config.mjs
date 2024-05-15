@@ -10,10 +10,6 @@ const nextConfig = {
 
 const withMDX = createMDX({
   // Add markdown plugins here, as desired
-  extension: /\.mdx?$/,
-  experimental: {
-    mdxRs: true, // RustベースのMDXコンパイラを有効にする
-  },
 });
 
 // Merge MDX config with Next.js config
